@@ -16,15 +16,17 @@
 #define IDC_RIGHT                       1010
 #define IDC_VARIABLE                    1012
 #define IDC_FIXED                       1013
-#define IDC_EDIT1                       1014
 #define IDC_SPACING                     1014
+#define ID_TEXT_FORMAT                  32771
+#define ID_TEXT_EXIT                    32772
+#define ID_ACCELERATOR32773             32773
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        316
-#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_COMMAND_VALUE         32776
 #define _APS_NEXT_CONTROL_VALUE         1015
 #define _APS_NEXT_SYMED_VALUE           310
 #endif

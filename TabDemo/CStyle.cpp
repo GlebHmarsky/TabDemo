@@ -34,6 +34,7 @@ void CStyle::DoDataExchange(CDataExchange* pDX)
 
 
 BEGIN_MESSAGE_MAP(CStyle, CPropertyPage)
+	
 END_MESSAGE_MAP()
 
 

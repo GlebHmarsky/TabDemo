@@ -24,4 +24,5 @@ public:
 	int m_Pitch;
 	int m_Spacing;
 	CEdit m_SpacingEdit;
+	virtual BOOL OnInitDialog();
 };

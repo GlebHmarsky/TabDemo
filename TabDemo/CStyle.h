@@ -24,4 +24,7 @@ public:
 	BOOL m_Bold;
 	BOOL m_Italic;
 	BOOL m_Underline;
+	afx_msg void OnBnClickedBold();
+	afx_msg void OnBnClickedItalic();
+	afx_msg void OnBnClickedUnderline();
 };

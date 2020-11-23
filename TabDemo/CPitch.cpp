@@ -38,3 +38,14 @@ END_MESSAGE_MAP()
 
 
 // CPitch message handlers
+
+
+BOOL CPitch::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	// TODO:  Add extra initialization here
+	m_SpacingEdit.LimitText(1);
+	return TRUE;  // return TRUE unless you set the focus to a control
+				  // EXCEPTION: OCX Property Pages should return FALSE
+}

@@ -4,10 +4,20 @@
 
 
 #pragma once
+enum { JUSTIFY_LEFT, JUSTIFY_CENTER, JUSTIFY_RIGHT };
+enum { PITCH_VARIABLE, PITCH_FIXED };
 
 
 class CTabDemoDoc : public CDocument
 {
+public:
+	BOOL m_Bold;
+	BOOL m_Italic;
+	BOOL m_Underline;
+	int m_Justify;
+	int m_Pitch;
+	int m_Spacing;
+
 protected: // create from serialization only
 	CTabDemoDoc() noexcept;
 	DECLARE_DYNCREATE(CTabDemoDoc)
@@ -45,4 +55,6 @@ protected:
 	// Helper function that sets search content for a Search Handler
 	void SetSearchContent(const CString& value);
 #endif // SHARED_HANDLERS
+public:
+	afx_msg void OnTextFormat();
 };
